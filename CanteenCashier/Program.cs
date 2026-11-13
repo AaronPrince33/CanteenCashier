@@ -19,7 +19,7 @@ for (int i = 0; i < productName.Length; i++)
 
     purchaseAmount[i] = amount;
 
-    Console.Write("Do you want to purchase again? (Y/N)");
+    Console.Write("Do you want to purchase again? (Y/N): ");
     buyAgain = Console.ReadLine();
 
     if (buyAgain.ToUpper() == "T")
